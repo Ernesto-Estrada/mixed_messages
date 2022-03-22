@@ -1,11 +1,11 @@
 # Mixed Messages
 
-This is a program that promts a random message every time the user executes the script.
+This is a program that prompts a random message every time the user executes the script.
 
 ## Languages
 
 + JavaScript
 
-### Porpuse
+### Porpose
 
 *Project to showcase basic Javascript concepts such as arrays, objects, function, etc*

@@ -52,10 +52,16 @@ const today = () => {
         break;
         case 11:
             month = 'December';
-        break;
+        break;console.log(today());
         default:
             console.log('Something wrong happened');
         break;                                            
     }
-    return `Today is: ${month} ${date.getDate()} of the year ${date.getFullYear()}`
+    return `Today is: ${month} ${date.getDate()} year ${date.getFullYear()} at ${date.getHours()}:${date.getMinutes()}`;
 }
+
+const display = () => {
+    console.log(`${today()} and we want to say that: \nYou ${choose(subject)} are ${choose(adj)} and keep this message in mind: \n${choose(message)}`);
+}
+
+display();
